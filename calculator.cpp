@@ -51,7 +51,6 @@ int main() {
             }
             cout << "Result: " << result << endl;
             break;
-            system("pause");
         }
         case 3: {
             cout << "Enter Amount of numbers to Multiply: ";
@@ -69,7 +68,6 @@ int main() {
             }
             cout << "Result: " << result << endl;
             break;
-            system("pause");
         }
         case 4: {
             cout << "Enter Amount of numbers to Divide: ";
@@ -89,7 +87,6 @@ int main() {
                     else {
                         cout << "ERROR::Can not divide by zero!" << endl;
                         break;
-                        system("pause");
                     }
                 }
                 if(num2!=0)
@@ -98,12 +95,10 @@ int main() {
             else
                 cout << "Invalid Amount" << endl;
             break;
-            system("pause");
         }
         case 0: {
             cout << "Exiting the Program..." << endl;
             break;
-            system("pause");
         }
         default:
             attempt++;
