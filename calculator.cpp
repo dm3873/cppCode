@@ -18,7 +18,7 @@ int main() {
         cout << "Enter Choice: ";
         cin >> choice;
 
-        system("cls");
+        system("cls");//Only works on visual studio
 
         switch (choice) {
         case 1:{
